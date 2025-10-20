@@ -31,8 +31,8 @@ def perform_grid_search(pipeline, param_grid, X, y, scoring='recall', cv=5, verb
         n_jobs=-1
     )
     grid_search.fit(X, y)
-    print("Melhores parâmetros:", grid_search.best_params_)
-    print(f"Melhor {scoring}: {grid_search.best_score_:.4f}")
+    print("Best params:", grid_search.best_params_)
+    print(f"Best {scoring}: {grid_search.best_score_:.4f}")
     return grid_search.best_params_, grid_search.best_score_, grid_search.best_estimator_
 
 def plot_results(y_true, y_pred, y_proba):
