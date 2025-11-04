@@ -61,7 +61,7 @@ Clientes que pagam via cheque eletrônico apresentam maior taxa de churn compara
 
 <img src="images/paymentmethod.png" width="500" height="auto" />
 
-### 4. Valor mensal e tempo relacionamento
+### 4. Valor mensal e tempo de relacionamento
 Quanto maior o valor da mensalidade e menor o tempo de vínculo maior a probabilidade do cliente entrar em churn.
 
 <img src="images/tenure_monthly_charges.png" width="500" height="auto" />
