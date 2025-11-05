@@ -80,6 +80,7 @@ Para este projeto de churn, o **recall** foi priorizado como métrica principal,
 | **XGBoost**          | **47%**   | **83%**| **60%**  | **0.83**|
 | Regressão Logística  | 53%       | 80%    | 63%      | 0.84    |
 | Random Forest        | 55%       | 70%    | 61%      | 0.83    |
+| Ensemble         | 54%       | 78%    | 64%      | 0.84    |
 
 ---
 
